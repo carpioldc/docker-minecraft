@@ -48,6 +48,7 @@ container_run() {
         --net=host \
         --cap-add=ALL \
         --device=/dev/dri:/dev/dri \
+        --rm \
         $image \
         bash -c "/opt/minecraft/minecraft-launcher 2>/dev/null; /opt/minecraft/minecraft-launcher"
 }
