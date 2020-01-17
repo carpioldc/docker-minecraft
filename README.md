@@ -10,6 +10,10 @@ This is a bundle script that runs Minecraft Java Edition on Docker.
 
 ## Usage
 
+```
+curl https://raw.githubusercontent.com/carpioldc/docker-minecraft/master/run_minecraft.sh | bash -
+```
+or
 ```bash
 git clone git@github.com:carpioldc/docker-minecraft.git
 cd docker-minecraft
